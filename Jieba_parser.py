@@ -1,4 +1,4 @@
-# Time: 2021/11/20 19:32
+# Time: 2021/11/20 
 # Author: HJL
 # File: Jieba_parser.py
 # IDE: PyCharm
@@ -9,13 +9,11 @@ import jieba.analyse
 
 def main():
     # jieba.load_userdict("Internet words dict.txt")  # import personal dictionary
-    path = r"C:\Users\Alison\Desktop\w2"  # folder path
+    path = r"C:\Users\xxx\Desktop\w2"  # folder path
     sw_file = "No_stopwords.txt"  # personalize stopwords list
-    jieba.add_word('快递员')
-    jieba.add_word('菜鸟裹裹')
-    jieba.add_word('菜鸟驿站')
-    jieba.add_word('裹裹')
-    jieba.add_word('韵达')
+    jieba.add_word('加词1')
+    jieba.add_word('加词2')
+
     sw_list = get_stopwords(sw_file)
     parser(path, sw_list)
 
