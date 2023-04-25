@@ -1,5 +1,5 @@
 # File Name: Jieba_keyword.py
-# Date: 2022/4/3 23:52
+# Date: 2022/4/3 
 # Author: HJL
 # IDE: PyCharm
 import jieba.analyse
@@ -12,7 +12,7 @@ import time
 
 def main():
     start = time.time()
-    path = r'C:\Users\Alison\Desktop\test.txt'
+    path = r'C:\Users\xxx\Desktop\test.txt'
     # keywords1 = keyword_tfidf(path)
     keywords2 = keyword_textrank(path)
     # save_to_xlsx(keywords1, keywords2, path)
