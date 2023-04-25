@@ -1,2 +1,2 @@
 ### python_basics
-some basic python scripts
+basic python scripts for linguistic studies
