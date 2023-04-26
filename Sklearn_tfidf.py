@@ -10,7 +10,7 @@ from nltk.corpus import stopwords
 
 comp = re.compile('[^A-Z^a-z^0-9^ ]')
 
-file = r'C:\Users\Alison\Desktop\Brown.txt'
+file = r'C:\Users\xxx\Desktop\Brown.txt'
 text = codecs.open(file, "r", "utf-8")
 
 data = []
