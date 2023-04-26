@@ -1,14 +1,14 @@
 # File: Relational_graph.py
-# Date: 2022/8/31 19:42
+# Date: 2022/8/31 
 # Author: HJL
 # IDE:  PyCharm
 import pandas as pd
 from pyecharts import options as opts
 from pyecharts.charts import Graph
 
-nodes_data = pd.read_excel(r'G:\Grad files\Project2\Graph\node.xlsx', sheet_name="Sheet1")
-links_data = pd.read_excel(r'G:\Grad files\Project2\Graph\link.xlsx', sheet_name="Sheet1")
-categories_data = pd.read_excel(r'G:\Grad files\Project2\Graph\category.xlsx', sheet_name="Sheet1")
+nodes_data = pd.read_excel(r'G:\xxx\Project2\Graph\node.xlsx', sheet_name="Sheet1")
+links_data = pd.read_excel(r'G:\xxx\Project2\Graph\link.xlsx', sheet_name="Sheet1")
+categories_data = pd.read_excel(r'G:\xxx\Project2\Graph\category.xlsx', sheet_name="Sheet1")
 
 print(f"nodes_df:\n{nodes_data}")
 print(f"links_df:\n{links_data}")
