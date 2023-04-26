@@ -1,5 +1,5 @@
 # File: Random_sample_txt.py
-# Date: 2022/8/12 23:57
+# Date: 2022/8/12
 # Author: HJL
 # IDE:  PyCharm
 """
@@ -13,9 +13,9 @@ import time
 
 
 def main():
-    path1 = r"C:\Users\Alison\Desktop\test"  # original folder
-    path2 = r"C:\Users\Alison\Desktop\test_num"  # numbered folder
-    path3 = r"C:\Users\Alison\Desktop\sample"  # sampled folder
+    path1 = r"C:\Users\xxx\Desktop\test"  # original folder
+    path2 = r"C:\Users\xxx\Desktop\test_num"  # numbered folder
+    path3 = r"C:\Users\xxx\Desktop\sample"  # sampled folder
 
     start = time.time()
     files1 = os.listdir(path1)
