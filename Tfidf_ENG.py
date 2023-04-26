@@ -1,5 +1,5 @@
 # File Name: Tfidf_ENG.py
-# Date: 2022/4/4 23:33
+# Date: 2022/4/4
 # Author: HJL
 # IDE: PyCharm
 import re
@@ -12,7 +12,7 @@ from nltk.corpus import stopwords
 from collections import Counter
 import os
 
-path = r'C:\Users\Alison\Desktop\test'
+path = r'C:\Users\xxx\Desktop\test'
 
 
 s = nltk.stem.SnowballStemmer('english')   # 提取词干,语言：英语 OR 其他提取算法LancasterStemmer
